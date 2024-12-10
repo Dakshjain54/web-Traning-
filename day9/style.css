@@ -1,0 +1,32 @@
+h1{
+    color: red;
+}
+h2{
+    color: orange;
+}
+h3{
+    color: green;
+}
+/* body{
+    background-color: rgb(2, 87, 29);
+} */
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    
+    width: 25%;
+    /* background-color: aqua; */
+    padding: 20px;
+    margin-top: 20px;
+}
+img{
+    height: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
